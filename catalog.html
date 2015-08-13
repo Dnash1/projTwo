@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	</head>
+<body>
+	<% threads.forEach(function(e) { %>
+		<h2><a href="/thread/<%=e.id%>"> <%= e.subject %></a> </h2>
+		<p> <%= e.body %> </p>
+		<img src="<%=e.image%>">
+	<% }) %>
+</body>
+</html>
