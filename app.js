@@ -34,8 +34,21 @@ app.get("/catalog/:id", function(req, res) {
 			var rend = ejs.render(html, {threads: rows});
 			res.send(rend);
 		}
-
 	})
+});
+
+app.get("/thread/:id", function(req, res) {
+	db.all("SELECT * FROM posts WHERE thread_id = ?",
+		req.params.id,
+		function(err, rows) {
+			if (err) {
+				console.log(err);
+			} else {
+				var html = fs.readFileSync("./thread.html", "utf8");
+				var rend = ejs.render(html, {posts: rows});
+				res.send(rend);
+			}
+		});
 });
 
 app.listen(3000, function() {
