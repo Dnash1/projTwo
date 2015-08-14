@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+		<link rel="stylesheet" href="./../styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 <body>
-	<% posts.forEach(function(e) { %>
-		<h2> <%= e.subject %> </h2>
-		<p> <%= e.body %> </p>
-	<% }) %>
-
+	<div class='bigguy'>
+		<div class="pure-u-1-1">
+			<div class="pure-u-1-1 header">
+				
+			</div>
+		</div>
+	</div>
+	<div class='pure-g container'>
+		    <div class="pure-u-1-1">
+		    	<h2> <%= thread.subject %> </h2>
+				<p> <%= thread.body %> </p>
+		    </div>
+			<% posts.forEach(function(e) { %>
+				<div class="pure-u-1-1">
+					<h3> <%= e.subj %> </h3>
+					<p> <%= e.bod %> </h3>
+				</div>
+			<% }) %>
+	</div>
 </body>
 </html>

@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+		<link rel="stylesheet" href="./../styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
 	</head>
 <body>
-	<% threads.forEach(function(e) { %>
-		<h2><a href="/thread/<%=e.id%>"> <%= e.subject %></a> </h2>
-		<p> <%= e.body %> </p>
-		<img src="<%=e.image%>">
-	<% }) %>
+	<div class='bigguy'>
+		<div class="pure-u-1-1">
+			<div class="pure-u-1-1 header">
+			</div>
+		</div>
+	</div>
+	<div class='container'>
+		    <div class="pure-g container">
+				<% threads.forEach(function(e) { %>
+					<div class="pure-u-1-3">
+						<h2><a href="/thread/<%=e.id%>"> <%= e.subject %></a> </h2>
+						<p> <%= e.body %> </p>
+						<img src="<%=e.image%>">
+					</div>	
+				<% }) %>
+			</div>
+	</div>
+	<div class="bigguy">
+		<div class="pure-g">		
+		</div>
+	</div>
 	
+
 </body>
 </html>
