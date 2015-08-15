@@ -32,9 +32,11 @@ Apollo
 
 Oraculr(stupid meme shit)
 
+Pedantique
+
 <img src="./forumwire.jpg">
 <img src="./forums.jpg">
 
 ###Footnote on Rating Threads
 
-The absence of this feature is based on a philosophical objection more than a design objection. Whereas it is one thing to be able to register your disapproval of a particular idea and evaluate the collective disapproval of your peers via a rating system, the ability to censor, en masse, conflicting points of view by way of "downvotes" is one of the most profoundly harmful concepts to be introduced to the internet since microtransactions. It turns an open forum into an echo chamber tirelessly patrolled by self-appointed thought police and the end result will be a race of squealing infants who cower and go limp at their first introduction to an uncomfortable opinion. If Reddit becomes our default mode of interaction, then the sacred and profane potential of the internet and our great experiment in free speech and the unregulated flow of ideas in a global community may well come to an end. Digression over.
+The absence of this feature is based on a philosophical objection more than a design objection. Whereas it is one thing to be able to register your disapproval of a particular idea and evaluate the collective disapproval of your peers via a rating system, the ability to censor, en masse, conflicting points of view by way of "downvotes" is one of the most profoundly harmful concepts to be introduced to the internet since microtransactions. It turns an open forum into an echo chamber tirelessly patrolled by self-appointed thought police and the end result will be a race of squealing infants who cower and go limp at their first introduction to an uncomfortable opinion. If Reddit becomes our default mode of interaction, then the sacred and profane potential of the internet and our great experiment in free speech and the unregulated flow of ideas in a global community may well come to an end.

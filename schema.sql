@@ -32,11 +32,20 @@ CREATE TABLE users (
 	loc varchar
 );
 
-INSERT INTO boards (name, image) VALUES ('music', 'ph');
-INSERT INTO boards (name, image) VALUES ('television', 'ph');
-INSERT INTO boards (name, image) VALUES ('technology', 'ph');
+INSERT INTO boards (name, image) VALUES ('music', 'fa fa-headphones');
+INSERT INTO boards (name, image) VALUES ('television', 'fa fa-television');
+INSERT INTO boards (name, image) VALUES ('technology', 'fa fa-code');
+INSERT INTO boards (name, image) VALUES ('games', 'fa fa-gamepad');
+INSERT INTO boards (name, image) VALUES ('literature', 'fa fa-book');
+INSERT INTO boards (name, image) VALUES ('shitposting', 'fa fa-graduation-cap');
+
 
 INSERT INTO threads (board_id, user_id, subject, body, image) VALUES (1, 4, 'Shitposts', 'Shitpooooost', 'x');
 INSERT INTO threads (board_id, user_id, subject, body, image) VALUES (1, 4, 'Bloo', 'Shmee', 'x');
 
 INSERT INTO posts (thread_id, user_id, subj, bod, image, replied_to) VALUES (1, 2, 'nlah', 'haha fuck you!', '/', 3);
+INSERT INTO posts (thread_id, user_id, subj, bod, image, replied_to) VALUES (1, 2, 'boop', 'memes', '/', 3);
+
+
+
+

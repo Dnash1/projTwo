@@ -11,17 +11,17 @@
 	<div class='bigguy'>
 		<div class="pure-u-1-1">
 			<div class="pure-u-1-1 header">
-				
+				<i class="fa fa-fire"></i>
 			</div>
 		</div>
 	</div>
 	<div class='pure-g container'>
-		    <div class="pure-u-1-1">
+		    <div class="pure-u-1-1 post">
 		    	<h2> <%= thread.subject %> </h2>
 				<p> <%= thread.body %> </p>
 		    </div>
 			<% posts.forEach(function(e) { %>
-				<div class="pure-u-1-1">
+				<div class="pure-u-1-1 post">
 					<h3> <%= e.subj %> </h3>
 					<p> <%= e.bod %> </h3>
 				</div>
