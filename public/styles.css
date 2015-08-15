@@ -10,15 +10,19 @@ a {
 }
 
 .pure-g{
-  background: #fff;
+  background-color: #312F2F;
   width:70%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-span {
+.icon {
 	font-size: 75px;
+}
+
+.b-icon {
+	font-size: 70px;
 }
 
 .header {
@@ -32,14 +36,33 @@ span {
 	letter-spacing: 2px;
 }
 
+.footer {
+	color: #ff8000;
+	text-shadow: 0 0 4px #ff8000;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Copperplate, sans-serif;
+	letter-spacing: 1px;
+	bottom:0;
+	left: 0;
+	position: absolute;
+	padding-bottom: 20px;
+}
+
 .boards {
 	background-color: #312F2F;
 	font-color: #ff8000;
 	text-shadow: 0 0 4px #ff8000;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: Copperplate, sans-serif;
-	padding-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+.boards:hover {
+	text-shadow: 0 0 20px #F3F315;
 }
 
 img {

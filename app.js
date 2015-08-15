@@ -26,7 +26,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/catalog/:id", function(req, res) {
-	db.all("SELECT * FROM threads WHERE board_id=?",
+	db.all("SELECT * FROM threads WHERE board_id=? ORDER BY t_order DESC",
 		req.params.id,
 		function(err, rows) {
 		if (err) {
