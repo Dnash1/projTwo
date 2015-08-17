@@ -1,16 +1,92 @@
 html, body {
-	background-color: #312F2F;
+	background-color: #162129;
 	display: inline;
 }
 
 a {
 	color: #ff8000;
 	text-decoration: inherit;
-	font-family: Copperplate, sans-serif;
+	font-family: inherit;
 }
 
-.pure-g{
-  background-color: #312F2F;
+.smush {
+	height: 35px;
+}
+
+.t-img {
+	
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.p-img {
+	float: left;
+	height: 150px;
+	width: auto;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.t-text {
+	height: 50px;
+}
+
+.t-form {
+	display: none;
+	color: #ff8000;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-left: 250px;
+	margin-right: 250px;
+	text-align: left;
+}
+
+.t-form:target {
+	display: inline;
+}
+
+input {
+	color: black;
+	word-wrap: break-word;
+}
+
+.big {
+	height: 200px;
+	width: 400px;
+}
+
+.long {
+	width: 400px;
+}
+
+.ui {
+	font-size: 25px;
+	color: #ff8000;
+	text-shadow: 0 0 4px #ff8000;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.threads {
+	color: #ff8000;
+	font-size: 9pt;
+	padding-bottom: 20px;
+}
+
+.img-cont {
+	height: 150px;
+	width: 200px;
+	font-size: 70px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.pure-g {
+  background-color: #162129;
   width:70%;
   margin-left: auto;
   margin-right: auto;
@@ -25,9 +101,13 @@ a {
 	font-size: 70px;
 }
 
+.t-area {
+	color: black;
+}
+
 .header {
 	color: #ff8000;
-	text-shadow: 0 0 4px #ff8000;
+	text-shadow: 0 0 15px #ff8000;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -47,12 +127,24 @@ a {
 	letter-spacing: 1px;
 	bottom:0;
 	left: 0;
-	position: absolute;
+	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
+.post {
+	color: white;
+	background: darkslategray;
+	box-shadow: 0px 0px 10px 3px gray;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+}
+
 .boards {
-	background-color: #312F2F;
+	background-color: #162129;
 	font-color: #ff8000;
 	text-shadow: 0 0 4px #ff8000;
 	font-size: 25px;
@@ -65,14 +157,20 @@ a {
 	text-shadow: 0 0 20px #F3F315;
 }
 
-img {
-	height: 275px;
-	width: 275px;
-}
-
 .bigguy {
 	margin-left: 250px;
 	margin-right: 250px;
 }
 
+.name {
+	color: #ff8000;
+}
 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	html, body {
+  		display: table;
+  	}
+}

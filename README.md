@@ -4,38 +4,29 @@
 
 To create a comfortable and efficient place for discussion and the exchange of ideas. Emphasis must be on usability, clear formatting, and intuitive display of information.
 
-## User Stories
+## Current Features
 
 - Users should be able to select from a number of sub-forums for a range of topics.
 - Users should be able to view a catalog of threads within each sub-forum.
 - Users should be able to create their own threads with a subject and image.
 - Users should be able to **shitpost relentlessly** in other users' threads until the internet collapses under the sheer weight of their idiocy.
-- Users should be able to enter a name and e-mail attached to each post and thread.
-- Users should have their Gravatar displayed according to their e-mail input.
+- Users should be able to enter a name attached to each post and thread.
+- Users should be able to immediately see where the activity is by the catalog sorting by bump order.
+
+<img src="./forumwire.jpg">
+<img src="./forums.jpg">
+
+## Planned Features
+
 - Users should be able to see the flag of the home country of other users.
 - Users should have the option to write their posts in markdown format.
 - Users should have the option of custom color schemes.
+- Users should have their Gravatar displayed according to their e-mail input.
 - Users should be able to link images, gifs and .webms (?) to their posts.
-
 - Users should be able to upload image files alongside their posts (?).
 - Users should be able to adjust settings for how their posts are displayed (?).
 - Users should be able to create their own sub-forums (?).
 - Users should be able to embed youtube and soundcloud links in their posts (?).
-
-##Title ideas
-
-Cinder
-
-Conduit
-
-Apollo
-
-Oraculr(stupid meme shit)
-
-Pedantique
-
-<img src="./forumwire.jpg">
-<img src="./forums.jpg">
 
 ###Footnote on Rating Threads
 
