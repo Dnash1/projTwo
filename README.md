@@ -12,6 +12,7 @@ To create a comfortable and efficient place for discussion and the exchange of i
 - Users should be able to **shitpost relentlessly** in other users' threads until the internet collapses under the sheer weight of their idiocy.
 - Users should be able to enter a name attached to each post and thread.
 - Users should be able to immediately see where the activity is by the catalog sorting by bump order.
+- Users should be able to link images and gifs to their posts.
 
 <img src="./forumwire.jpg">
 <img src="./forums.jpg">
@@ -22,7 +23,6 @@ To create a comfortable and efficient place for discussion and the exchange of i
 - Users should have the option to write their posts in markdown format.
 - Users should have the option of custom color schemes.
 - Users should have their Gravatar displayed according to their e-mail input.
-- Users should be able to link images, gifs and .webms (?) to their posts.
 - Users should be able to upload image files alongside their posts (?).
 - Users should be able to adjust settings for how their posts are displayed (?).
 - Users should be able to create their own sub-forums (?).
