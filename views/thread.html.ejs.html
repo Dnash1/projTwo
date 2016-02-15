@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+		<link rel="stylesheet" href="./../styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+<body>
+	<div class='bigguy'>
+		<div class="pure-u-1-1">
+			<div class="pure-u-1-1 header">
+				<p><a href="/"><span class="icon"><i class="fa fa-heartbeat"></i></span></a></br>PULSE</p>
+			</div>
+		</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-1-1 ui">
+			<a href="#op-tf"><i class="fa fa-plus-square"></i></a>
+		</div>
+		<div id="op-tf" class="pure-u-1-1 t-form">
+			<form method="POST" action="/post">
+				Name:   <input name="user" type="text">
+			</br>
+		</br>
+				Subject: <input name="sub" class="long" type="text">
+			</br>
+		</br>
+				<textarea rows="6" cols="56" class="t-area" name="bod"></textarea>
+			</br>
+		</br>
+				Image URL: <input name="img" class="long" type="text" height="200px">
+				<input name="id" type="hidden" value="<%=thread.id%>">
+				<input name="b_id" type="hidden" value="<%=thread.board_id%>">
+			</br>
+		</br>
+				<input type="submit">
+			</form>
+		</div>	
+	</div>
+	<div class='pure-g container'>
+
+		    <div class="pure-u-1-1 post">
+		    	<% if (thread.image === "") { %>
+		    		
+		    	<% } else { %>
+			    	<img class="p-img" src="<%=thread.image%>">
+				<% } %>
+		    	<% if (thread.user_id === "") { %>
+		    		<p><strong> <%= thread.subject %> </strong><span class="name"> Anonymous </span> </p>
+					<p> <%= thread.body %> </p>
+		    	<% } else { %>
+			    	<p><strong> <%= thread.subject %> </strong> <span class="name"><%= thread.user_id%></span></p>
+					<p> <%= thread.body %> </p>
+				<% } %>
+		    </div>
+			<% posts.forEach(function(e) { %>
+				<div class="pure-u-1-1 post">
+					<% if (e.image === "") { %>
+		    		
+		    	<% } else { %>
+			    	<img class="p-img" src="<%=e.image%>">
+				<% } %>
+
+					
+
+					<% if (e.user_id === "") { %>
+		    		<p><strong> <%= e.subj %> </strong><span class="name"> Anonymous</span></p>
+					<p> <%= e.bod %> </p>
+		    	<% } else { %>
+			    	<p><strong> <%= e.subj %> </strong><span class="name"> <%= e.user_id%></span></p>
+					<p> <%= e.bod %> </p>
+				<% } %>
+
+					
+				</div>
+			<% }) %>
+	</div>
+	<div class="bigguy">
+		<div class="pure-g">	
+			<div class="pure-u-1-1 footer">
+				<i class="fa fa-copyright"></i> 2015 D̪͙̭͓ͅạv̳͓͍̋͂ͪ̌ͫ̉̈ͅi̙͔ͫ̃̔̈́ͣď ̠̞͕̩̳͚ͩͫ͐͋N̤̦̥͓͉̓̏a͍̰͓ͭ͗͛s͈ͧ͆ͤ̐͋h͖̘̱̙̅͒̄ͮ̃͊
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
